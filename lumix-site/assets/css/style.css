@@ -194,3 +194,66 @@ footer {
     border-radius: 10px;
     margin-top: 15px;
 }
+
+/* LOGIN / AUTH */
+
+.auth-container,
+.pagamento-container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.auth-box,
+.pagamento-box {
+    background-color: #181530;
+    padding: 40px;
+    border-radius: 16px;
+    width: 350px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+}
+
+.auth-box h2,
+.pagamento-box h2 {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.auth-box input,
+.pagamento-box input {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+    border: none;
+    background-color: #111;
+    color: white;
+}
+
+.auth-footer {
+    text-align: center;
+    margin-top: 10px;
+}
+
+/* WISHLIST */
+
+.wishlist {
+    max-width: 700px;
+    margin: 60px auto;
+}
+
+.wishlist-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #181530;
+    padding: 15px 20px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.wishlist-total {
+    margin-top: 30px;
+    text-align: right;
+}
