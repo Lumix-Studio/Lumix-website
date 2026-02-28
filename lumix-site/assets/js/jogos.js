@@ -29,4 +29,3 @@ document.getElementById("media").innerHTML = '(${media.toFixed(2)} / 5)';
 
 gerarEstrelas(media);
 // fim das avaliações bonitas
-
